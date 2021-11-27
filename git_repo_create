@@ -1,0 +1,8 @@
+#!/bin/bash
+
+git init
+echo .git_repo_create > gitignore
+git add .
+git commit -m "auto-generated-commit"
+git remote add origin https://github.com/pedagil/$1.git
+git push https://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@github.com/pedagil/$1.git
